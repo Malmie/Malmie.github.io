@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
-body { 
+html { 
   background: url(../img/hero.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ }
+ body { 
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -164,8 +166,12 @@ a {
 
 /*MEDIA Q */
 @media (max-width: 767px) {
-  body {
-    background-image: url(../img/hero-mobile.jpg);
+  html {
+    background-image: url(../img/hero-mobile.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .hero h1 {
     font-size: 24px;
@@ -174,7 +180,7 @@ a {
     font-size: 24px;
   }
   .hero h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .container {
     width: 90%;
