@@ -2,20 +2,14 @@
 html, body {
   height: 100%;
 }
-/*html { 
-  background: url(../img/hero.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }*/
+
  body { 
   background-image: url(../img/hero.jpg);     
   background-position: center center;
-      background-repeat:  no-repeat;
-      background-attachment: fixed;
-      background-size:  cover;
-      background-color: #999;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  background-color: #d2dae2;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -177,7 +171,9 @@ a {
 
 /*MEDIA Q */
 @media (max-width: 767px) {
-
+  body {
+    background-image: url(../img/hero-mobile.jpg);
+  }
   .hero h1 {
     font-size: 24px;
   }
