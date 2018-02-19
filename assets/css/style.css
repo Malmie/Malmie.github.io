@@ -177,13 +177,7 @@ a {
 
 /*MEDIA Q */
 @media (max-width: 767px) {
-  html {
-    background-image: url(../img/hero-mobile.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+
   .hero h1 {
     font-size: 24px;
   }
