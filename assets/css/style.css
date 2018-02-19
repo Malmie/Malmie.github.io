@@ -177,7 +177,7 @@ a {
   body {
     background-image: url(../img/hero-mobile.jpg);
   }
-  .hero text {
+  .hero-text {
     padding-top: 200px;
   }
   .hero h1 {
@@ -195,6 +195,7 @@ a {
   }
   .flex-img {
     margin: 5px;
+    opacity: 1;
   }
   .col-xs-12 {
     width: 100%;
@@ -202,6 +203,9 @@ a {
   .contact p {
     display: inline;
     font-size: 18px;
+  }
+  .my-photo {
+    opacity: 1;
   }
   [class*='col-'] {
     padding: 5px;
