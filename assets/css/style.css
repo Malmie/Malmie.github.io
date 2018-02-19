@@ -164,6 +164,9 @@ a {
 
 /*MEDIA Q */
 @media (max-width: 767px) {
+  body {
+    background-image: url(../img/hero-mobile.jpg);
+  }
   .hero h1 {
     font-size: 24px;
   }
