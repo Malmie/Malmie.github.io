@@ -186,6 +186,9 @@ a {
   .hero h3 {
     font-size: 16px;
   }
+  .arrow-down {
+    bottom: 50px;
+  } 
   .container {
     width: 90%;
     padding: 5px;

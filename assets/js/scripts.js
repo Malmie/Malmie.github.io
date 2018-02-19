@@ -33,7 +33,7 @@ $(document).ready(function(){
 //icon "goTop"
 window.onscroll = function() {scrollFunction()};
  	function scrollFunction() {
-    	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
         	document.getElementById("goTop").style.display = "block";
     	} else {
         	document.getElementById("goTop").style.display = "none";
