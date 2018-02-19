@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
-html { 
+html, body {
+  height: 100%;
+}
+/*html { 
   background: url(../img/hero.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- }
+ }*/
  body { 
+  background-image: url(../img/hero.jpg);     
+  background-position: center center;
+      background-repeat:  no-repeat;
+      background-attachment: fixed;
+      background-size:  cover;
+      background-color: #999;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
@@ -39,6 +48,7 @@ a {
 }
 .hero h1, h3 {
   color: #000;
+  text-shadow: 1px 1px 4px #fff;
 }
 .hero h1 {
   font-size: 44px;
@@ -54,6 +64,7 @@ a {
   color: #112524;
   font-size: 44px;
   padding: 0 10px;
+  text-shadow: 1px 1px 4px #fff;
 }
 .arrow-down {
   position: absolute;
