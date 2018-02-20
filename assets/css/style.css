@@ -38,7 +38,7 @@ a {
   text-shadow: 1px 1px 4px #fff;
 }
 .hero-text {
-  padding-top: 50vh;
+  padding-top: 45vh;
 }
 .hero h1, h3 {
   color: #000;
@@ -230,9 +230,6 @@ a {
     }
 }   
 @media (min-width: 1600px) {
-  .hero-text {
-    padding-top: 50vh;
-  }
   .container{
     width: 70%;
   }
