@@ -229,5 +229,9 @@ a {
     padding: 5px;
     }
 }   
-
+@media (min-width: 1600px) {
+  .hero-text {
+    padding-top: 30vh;
+  }
+}
 
