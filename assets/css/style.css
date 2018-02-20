@@ -5,9 +5,9 @@ html, body {
 body { 
   background-image: url(../img/hero-new.jpg);     
   background-position: center center;
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:  cover;
+  background-size: cover;
   background-color: #d2dae2;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
@@ -205,6 +205,9 @@ a {
   .hero h3 {
     font-size: 16px;
   }
+  h1, h2, h3 {
+    letter-spacing: 2px;
+  }
   .arrow-down {
     padding-top: 100px;
   }  
@@ -231,10 +234,19 @@ a {
     }
 }   
 @media (min-width: 1600px) {
+  .hero h1 {
+    font-size: 54px;
+  }
+  .hero i {
+    font-size: 54px;
+  }
+  .hero h3 {
+    font-size: 34px;
+  }
   .container{
     width: 70%;
   }
   .arrow-down {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
