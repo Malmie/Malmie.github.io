@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=latin-ext|Roboto');
 html, body {
   height: 100vh;
 }
@@ -22,7 +22,8 @@ body {
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  font-weight: lighter;
+  letter-spacing: 4px;
   color: #fff;
 }
 a {
