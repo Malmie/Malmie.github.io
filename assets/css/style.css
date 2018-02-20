@@ -57,11 +57,11 @@ a {
   font-size: 44px;
 }
 .hero-text-bottom {
-  margin-top: 330px;
+  margin-top: 400px;
 }
 .arrow-down {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   color: #112524;
   animation: fadeIn 2s infinite;
 }
