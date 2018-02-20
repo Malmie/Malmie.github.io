@@ -3,7 +3,7 @@ html, body {
   height: 100vh;
 }
 body { 
-  background-image: url(../img/hero.jpg);     
+  background-image: url(../img/hero-origin.jpg);     
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -38,7 +38,7 @@ a {
   text-shadow: 1px 1px 4px #fff;
 }
 .hero-text {
-  padding-top: 250px;
+  padding-top: 280px;
 }
 .hero h1, h3 {
   color: #000;
@@ -62,18 +62,18 @@ a {
   position: absolute;
   bottom: 20px;
   color: #112524;
-  animation: pulse 2s infinite;
+  animation: fadeIn 2s infinite;
 }
-@keyframes pulse {
-    0% {
-        transform: scale(0.8);
-    }
-    50% {
-      transform: scale(1);
-    }
-    100% {
-        transform: scale(0.8);
-    }
+@keyframes fadeIn {
+  0% {
+      transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+      transform: scale(0.8);
+  }
 }
 /*MAIN CONTAINER*/
 .container {
@@ -133,6 +133,9 @@ a {
 .flex-layer h3 {
   color: #fff;
   text-shadow: none; 
+}
+.flex-layer p {
+  text-transform: uppercase;
 }
 
 /*CONTACT*/

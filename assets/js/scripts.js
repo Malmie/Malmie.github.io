@@ -12,7 +12,7 @@ $(document).ready(function(){
 		};
 		var Otimer=setInterval(show,speed);
 	};
-  	changeText($("h2"),$(".text-animation"),90); 
+  	changeText($("h2"),$(".text-animation"),100); 
 });
 
 //smooth scrolling
