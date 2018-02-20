@@ -233,5 +233,8 @@ a {
   .hero-text {
     padding-top: 30vh;
   }
+  .container{
+    width: 70%;
+  }
 }
 
