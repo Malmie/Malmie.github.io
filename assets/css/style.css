@@ -39,7 +39,7 @@ a {
   color: #373e4c;
 }
 .hero-text {
-  padding-top: 15vh;
+  padding-top: 20vh;
 }
 .hero h1, h3 {
   color: #000;
@@ -110,7 +110,7 @@ a {
   -webkit-flex: 1; 
   -ms-flex: 1;
   flex: 1;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .img-1 {background-image: url("../img/psd.png"); background-position: top;}
 .img-2 {background-image: url("../img/bootstrap.png"); background-position: top;}
@@ -173,10 +173,13 @@ a {
 }
 .my-photo {
   text-align: center;
-  opacity: 0.9;
+  opacity: 0.8;
 } 
 .contact:hover .my-photo {
   opacity: 1;
+}
+i:hover {
+  color: #373e4c;
 }
 
 /*GO TOP ICON*/
@@ -200,11 +203,11 @@ a {
     padding-top: 5vh;
   }
   .hero h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px
   }
   .hero i {
-    font-size: 28px;
+    font-size: 24px;
   }
   .hero h3 {
     font-size: 16px;
