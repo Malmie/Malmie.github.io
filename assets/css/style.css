@@ -38,7 +38,7 @@ a {
   text-shadow: 1px 1px 4px #fff;
 }
 .hero-text {
-  padding-top: 20%;
+  padding-top: 40vh;
 }
 .hero h1, h3 {
   color: #000;
@@ -229,4 +229,5 @@ a {
     padding: 5px;
     }
 }   
+
 
