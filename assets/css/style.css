@@ -38,8 +38,8 @@ a {
   position: relative;
   color: #373e4c;
 }
-.hero-text {
-  padding-top: 20vh;
+.hero-text-top {
+  padding-top: 4em;
 }
 .hero h1, h3 {
   color: #000;
@@ -199,12 +199,11 @@ i:hover {
   body {
     background-image: url(../img/laptop-mobile.jpg);
   }
-  .hero-text {
-    padding-top: 5vh;
+  .hero-text-top {
+    padding-top: 10px;
   }
   .hero h1 {
     font-size: 20px;
-    margin-bottom: 10px
   }
   .hero i {
     font-size: 24px;
