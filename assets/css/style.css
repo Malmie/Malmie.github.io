@@ -233,7 +233,7 @@ a {
     padding: 5px;
     }
 }   
-@media (min-width: 1600px) {
+@media (min-width: 1680px) {
   .hero h1 {
     font-size: 54px;
   }
