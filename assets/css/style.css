@@ -220,7 +220,7 @@ a {
   }
   .contact p {
     display: inline;
-    font-size: 18px;
+    font-size: 16px;
   }
   .my-photo {
     opacity: 1;
@@ -233,5 +233,7 @@ a {
   .container{
     width: 70%;
   }
+  .arrow-down {
+    padding-top: 100px;
 }
 
