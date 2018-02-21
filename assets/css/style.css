@@ -18,7 +18,6 @@ body {
 * {
   box-sizing: border-box;
 }
-
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -85,7 +84,7 @@ a {
   width: 80%;
   height: auto;
   margin: 50px auto;
-  background: rgba(94, 100, 112, 0.8);
+  background: rgba(94, 100, 112, 0.9);
   padding: 20px;
 }
 
@@ -114,10 +113,10 @@ a {
 }
 .img-1 {background-image: url("../img/psd.png"); background-position: top;}
 .img-2 {background-image: url("../img/bootstrap.png"); background-position: top;}
-.img-3 {background-image: url("../img/simple-website.png");}
+.img-3 {background-image: url("../img/simple-website.jpg");}
 .img-4 {background-image: url("../img/game.png");}
 .img-5 {background-image: url("../img/kanban-board.png"); background-position: top;}
-.img-6 {background-image: url("../img/country-search.png");}
+.img-6 {background-image: url("../img/country.jpg"); background-position: left;}
 
 .projects:hover .flex-img {
   opacity: 1;
@@ -198,6 +197,8 @@ i:hover {
 @media (max-width: 767px) {
   body {
     background-image: url(../img/laptop-mobile.jpg);
+    background-position: right;
+    line-height: 1;
   }
   .hero-text-top {
     padding-top: 10px;
@@ -215,7 +216,7 @@ i:hover {
     letter-spacing: 1px;
   }
   .hero-text-bottom {
-    bottom: 30px;
+    bottom: 23px;
   }
   .arrow-down {
     bottom: 10px;
@@ -255,7 +256,7 @@ i:hover {
   .hero h3 {
     font-size: 34px;
   }
-  .container{
+  .container {
     width: 70%;
   }
 
