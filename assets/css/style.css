@@ -113,10 +113,10 @@ a {
 }
 .img-1 {background-image: url("../img/psd.png"); background-position: top;}
 .img-2 {background-image: url("../img/bootstrap.png"); background-position: top;}
-.img-3 {background-image: url("../img/simple-website.jpg");}
+.img-3 {background-image: url("../img/simple-website.jpeg");}
 .img-4 {background-image: url("../img/game.png");}
 .img-5 {background-image: url("../img/kanban-board.png"); background-position: top;}
-.img-6 {background-image: url("../img/country.jpg"); background-position: left;}
+.img-6 {background-image: url("../img/country.jpeg"); background-position: left;}
 
 .projects:hover .flex-img {
   opacity: 1;
