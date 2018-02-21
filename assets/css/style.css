@@ -89,12 +89,13 @@ a {
 }
 
 /*PROJECTS*/
-.projects h1 {
+.projects h2 {
   margin: 0px;
 }
 .flex-row {
+  display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
@@ -159,7 +160,7 @@ a {
 .contact-content {
   text-align: center;
 }
-.contact-content h1 {
+.contact-content h2 {
   text-align: left;
   margin-top: 0px;
 }
@@ -259,5 +260,6 @@ i:hover {
   .container {
     width: 70%;
   }
+ } 
 
 
