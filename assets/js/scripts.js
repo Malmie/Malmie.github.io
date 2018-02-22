@@ -1,19 +1,27 @@
 //hero text animation
 $(document).ready(function(){
-	function changeText(cont1,cont2,speed){
-		var Otext=cont1.text();
-		var Ocontent=Otext.split("");
-		var i=0;
-		function show(){
-			if (i<Ocontent.length) {  
-  				cont2.append(Ocontent[i]);
-  				i=i+1;
-			};
-		};
-		var Otimer=setInterval(show,speed);
-	};
-  	changeText($(".hero h2"),$(".text-animation"),100); 
-});
+  function changeText(cont1,cont2,speed,delay){
+    delay = delay / 100;
+    var appendTextForDelay = "";
+    while (delay>0) {
+      appendTextForDelay += " ";
+      delay--;
+    }
+    var Otext = cont1.text();
+    Otext = appendTextForDelay.concat(Otext);
+
+    var Ocontent = Otext.split("");
+    var i = 0;
+    function show(){
+      if (i < Ocontent.length) {  
+          cont2.append(Ocontent[i]);
+          i = i + 1;
+      };
+    };
+    var Otimer = setInterval(show,speed);
+  };
+  changeText($(".hero h2"),$(".text-animation"),100, 1500);   
+}); 
 
 //smooth scrolling
 $(document).ready(function(){

@@ -3,7 +3,7 @@ html, body {
   height: 100vh;
 }
 body { 
-  background-image: url(../img/laptop-new.jpg);     
+  background-image: url(../img/laptop-blur.jpg);     
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,6 +39,7 @@ a {
 }
 .hero-text-top {
   padding-top: 4em;
+  animation: pop-in 1s ease-out forwards;
 }
 .hero h1, h3 {
   color: #000;
@@ -54,6 +55,16 @@ a {
 }
 .skills-icons {
   font-size: 44px;
+}
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 .hero-text-bottom {
   position: absolute;
@@ -261,5 +272,3 @@ i:hover {
     width: 70%;
   }
  } 
-
-
