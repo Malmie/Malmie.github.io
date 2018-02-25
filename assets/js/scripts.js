@@ -20,7 +20,7 @@ $(document).ready(function(){
     };
     var Otimer = setInterval(show,speed);
   };
-  changeText($(".hero h2"),$(".text-animation"),100, 1500);   
+  changeText($(".hero h2"),$(".text-animation"),100, 2000);   
 }); 
 
 //smooth scrolling
@@ -47,4 +47,5 @@ window.onscroll = function() {scrollFunction()};
         	document.getElementById("goTop").style.display = "none";
     	}
   	}
+  
 
