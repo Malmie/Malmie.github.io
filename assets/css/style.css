@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-html, body{
+/*html, body{
   width: 100%;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-}
+}*/
 body { 
   background-color: #D5D7C9;
   margin: 0 auto;
@@ -29,7 +29,7 @@ a {
   background-image: url(../img/laptop-blur.jpg);     
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+/*  background-attachment: fixed;*/
   background-size: cover;
   height: 100vh;
   -webkit-animation: fade-in-hero 2s cubic-bezier(0.88, -0.23, 0.29, 1) 0.3s both;
