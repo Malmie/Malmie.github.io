@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+html, body{
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
 body { 
   background-color: #D5D7C9;
   margin: 0 auto;
@@ -343,7 +348,7 @@ a {
     line-height: 1;
   }
   .hero-text-top {
-    padding-top: 150px;
+    padding-top: 120px;
   }
   .hero h1 {
     font-size: 20px;
@@ -358,10 +363,10 @@ a {
     letter-spacing: 1px;
   }
   .hero-text-bottom {
-    bottom: 50px;
+    bottom: 70px;
   }
   .arrow-down {
-    bottom: 30px;
+    bottom: 50px;
   }
   .container {
     width: 90%;
