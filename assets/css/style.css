@@ -82,7 +82,7 @@ a {
   color: rgba(0, 0, 0, 0.8);
 }
 .hero-text-top {
-  padding-top: 10em;
+  padding-top: 25%;
   -webkit-animation: pop-in-header 2s ease-out forwards;
   -moz-animation: pop-in-header 2s ease-out forwards;
   -o-animation: pop-in-header 2s ease-out forwards;
@@ -348,7 +348,7 @@ a {
     margin: 0 auto;
   }
   .hero-text-top {
-    padding-top: 25em;
+    padding-top: 120%;
   }
   .hero h1 {
     font-size: 20px;
@@ -363,10 +363,10 @@ a {
     letter-spacing: 1px;
   }
   .hero-text-bottom {
-    bottom: 70px;
+    bottom: 80px;
   }
   .arrow-down {
-    bottom: 50px;
+    bottom: 60px;
   }
   .container {
     width: 90%;
