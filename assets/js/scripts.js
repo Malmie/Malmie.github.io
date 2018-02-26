@@ -41,7 +41,7 @@ $(document).ready(function(){
 //icon "goTop"
 window.onscroll = function() {scrollFunction()};
  	function scrollFunction() {
-    	if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    	if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
         	document.getElementById("goTop").style.display = "block";
     	} else {
         	document.getElementById("goTop").style.display = "none";

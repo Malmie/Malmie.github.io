@@ -82,7 +82,7 @@ a {
   color: rgba(0, 0, 0, 0.8);
 }
 .hero-text-top {
-  padding-top: 25%;
+  padding-top: 20%;
   -webkit-animation: pop-in-header 2s ease-out forwards;
   -moz-animation: pop-in-header 2s ease-out forwards;
   -o-animation: pop-in-header 2s ease-out forwards;
@@ -374,7 +374,7 @@ a {
   .projects {
     font-size: 0.8em;
   }
-  .projects img {
+  .projects-content [class*='col-'] {
     opacity: 1;
   }
   .col-xs-12 {
