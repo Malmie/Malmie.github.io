@@ -422,6 +422,11 @@ a {
   .layer-big i {
     margin-top: 25px;
   }
+  .footer {
+    display: block;
+    position: relative;
+    bottom: 0px;
+  }
   .footer-content {
     width: 90%;
   }
