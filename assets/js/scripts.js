@@ -26,26 +26,42 @@ $(document).ready(function(){
 //smooth scrolling
 $(document).ready(function(){
 	$("a").on('click', function(event) {
-    	if (this.hash !== "") {
-      		event.preventDefault();
-      		var hash = this.hash;
-      		$('html, body').animate({
-        	scrollTop: $(hash).offset().top
-      		}, 800, function(){
-        	window.location.hash = hash;
-      		});
-    	}
-  	});
+    if (this.hash !== "") {
+  		event.preventDefault();
+  		var hash = this.hash;
+  		$('html, body').animate({
+    	scrollTop: $(hash).offset().top
+  		}, 800, function(){
+    	window.location.hash = hash;
+  		});
+  	};
+  });
 });
 
 //icon "goTop"
-window.onscroll = function() {scrollFunction()};
- 	function scrollFunction() {
-    	if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
-        	document.getElementById("goTop").style.display = "block";
-    	} else {
-        	document.getElementById("goTop").style.display = "none";
-    	}
-  	}
+$(window).scroll(function(event) {
+ 	function goTop() {
+  	if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      $(".arrow-up").fadeIn("slow").addClass("show");
+    } else {
+      $(".arrow-up").fadeOut("slow").removeClass("show");
+    } 
+	}
+  goTop();
+});  
+
+// footer appear
+$(window).scroll(function(event) {
+  function footer() {
+    var scroll = $(window).scrollTop(); 
+    if(scroll > 50) { 
+      $(".footer").fadeIn("slow").addClass("show");
+    } else {
+      $(".footer").fadeOut("slow").removeClass("show");
+    } 
+}
+footer();
+});
+
   
 

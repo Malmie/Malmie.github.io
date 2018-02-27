@@ -37,31 +37,31 @@ a {
 @-webkit-keyframes fade-in-hero {
   0% {
     opacity: 0;
-    transform: scale(1);
+    -webkit-transform: scale(1);
   }
   100% {
     opacity: 1;
-    transform: none;
+    -webkit-transform: none;
   }
 }
 @-moz-keyframes fade-in-hero {
   0% {
-    opacity: 0;
+    -moz-opacity: 0;
     transform: scale(1);
   }
   100% {
-    opacity: 1;
+    -moz-opacity: 1;
     transform: none;
   }
 }
 @-o-keyframes fade-in-hero {
   0% {
     opacity: 0;
-    transform: scale(1);
+    -o-transform: scale(1);
   }
   100% {
     opacity: 1;
-    transform: none;
+    -o-transform: none;
   }
 }
 @keyframes fade-in-hero {
@@ -91,31 +91,31 @@ a {
 @-webkit-keyframes pop-in-header {
   0% {
     opacity: 0;
-    transform: translateY(-4rem) scale(.8);
+    -webkit-transform: translateY(-4rem) scale(.8);
   }
   100% {
     opacity: 1;
-    transform: none;
+    -webkit-transform: none;
   }
 }
 @-moz-keyframes pop-in-header {
   0% {
     opacity: 0;
-    transform: translateY(-4rem) scale(.8);
+    -moz-transform: translateY(-4rem) scale(.8);
   }
   100% {
     opacity: 1;
-    transform: none;
+    -moz-transform: none;
   }
 }
 @-o-keyframes pop-in-header {
   0% {
     opacity: 0;
-    transform: translateY(-4rem) scale(.8);
+    -o-transform: translateY(-4rem) scale(.8);
   }
   100% {
     opacity: 1;
-    transform: none;
+    -o-transform: none;
   }
 }
 @keyframes pop-in-header {
@@ -151,56 +151,72 @@ a {
   margin: auto;
 }
 .arrow-down {
-  color: #112524;
   position: absolute;
-  bottom: 40px;
-  -webkit-animation: fade-in-arrow 2s infinite;
-  -moz-animation: fade-in-arrow 2s infinite;
-  -o-animation: fade-in-arrow 2s infinite;
-  animation: fade-in-arrow 2s infinite;
+  bottom: 50px;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #112524;
+  border-bottom: 1px solid #112524;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: arrow-down 1.5s infinite 5s;
+  -moz-animation: arrow-down 1.5s infinite 5s;
+  -o-animation: arrow-down 1.5s infinite 5s;
+  animation: arrow-down 1.5s infinite 5s;
 }
-@-webkit-keyframes fade-in-arrow {
+@-webkit-keyframes arrow-down {
   0% {
-      transform: scale(0.8);
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
   }
   50% {
-    transform: scale(1.0);
+    opacity: 1;
   }
   100% {
-      transform: scale(0.8);
+    -webkit-transform: rotate(-45deg) translate(-15px, 15px);
+    opacity: 0;
   }
 }
-@-moz-keyframes fade-in-arrow {
+@-moz-keyframes arrow-down {
   0% {
-      transform: scale(0.8);
+    -moz-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
   }
   50% {
-    transform: scale(1.0);
+    opacity: 1;
   }
   100% {
-      transform: scale(0.8);
+    -moz-transform: rotate(-45deg) translate(-15px, 15px);
+    opacity: 0;
   }
 }
-@-o-keyframes fade-in-arrow {
+@-o-keyframes arrow-down {
   0% {
-      transform: scale(0.8);
+    -o-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
   }
   50% {
-    transform: scale(1.0);
+    opacity: 1;
   }
   100% {
-      transform: scale(0.8);
+    -o-transform: rotate(-45deg) translate(-15px, 15px);
+    opacity: 0;
   }
 }
-@keyframes fade-in-arrow {
+@keyframes arrow-down {
   0% {
-      transform: scale(0.8);
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
   }
   50% {
-    transform: scale(1.0);
+    opacity: 1;
   }
   100% {
-      transform: scale(0.8);
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
   }
 }
 
@@ -300,10 +316,17 @@ a {
 
 /*FOOTER*/
 .footer {
+  position: fixed;
+  z-index: 9;
+  bottom: 0;
+  display: none;
   height: auto;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   letter-spacing: 1px;
+}
+.show, .footer:hover {
+    display: block;
 }
 .footer-content {
   width: 70%;
@@ -333,8 +356,11 @@ a {
   position: fixed; 
   bottom: 45px; 
   right: 30px;
-  z-index: 99; 
+  z-index: 10; 
   color: rgba(0, 0, 0, 0.6);
+}
+.show, .arrow-up:hover {
+    display: block;
 }
 
 /*MEDIA Q. */
