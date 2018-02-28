@@ -14,8 +14,8 @@ $(document).ready(function(){
     var i = 0;
     function show(){
       if (i < Ocontent.length) {  
-          cont2.append(Ocontent[i]);
-          i = i + 1;
+        cont2.append(Ocontent[i]);
+        i = i + 1;
       };
     };
     var Otimer = setInterval(show,speed);
