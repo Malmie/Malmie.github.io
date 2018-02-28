@@ -1,5 +1,5 @@
-//hero text animation
 $(document).ready(function(){
+  //hero text animation
   function changeText(cont1,cont2,speed,delay){
     delay = delay / 100;
     var appendTextForDelay = "";
@@ -21,10 +21,8 @@ $(document).ready(function(){
     var Otimer = setInterval(show,speed);
   };
   changeText($(".hero h2"),$(".text-animation"),100, 2000);   
-}); 
 
-//smooth scrolling
-$(document).ready(function(){
+  //smooth scrolling
 	$("a").on('click', function(event) {
     if (this.hash !== "") {
   		event.preventDefault();
@@ -38,29 +36,27 @@ $(document).ready(function(){
   });
 });
 
-//icon "goTop"
 $(window).scroll(function(event) {
+  //arrow-up
  	function goTop() {
   	if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
       $(".arrow-up").fadeIn("slow").addClass("show");
     } else {
       $(".arrow-up").fadeOut("slow").removeClass("show");
-    } 
-	}
+    }; 
+	};
   goTop();
-});  
 
-// footer appear
-$(window).scroll(function(event) {
+  // footer
   function footer() {
     var scroll = $(window).scrollTop(); 
     if(scroll > 50) { 
       $(".footer").fadeIn("slow").addClass("show");
     } else {
       $(".footer").fadeOut("slow").removeClass("show");
-    } 
-}
-footer();
+    }; 
+  };
+  footer();
 });
 
   

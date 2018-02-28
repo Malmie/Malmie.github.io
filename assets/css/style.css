@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=latin-ext');
 body { 
   background-color: #E7E7EF;
   margin: 0 auto;
@@ -339,7 +339,7 @@ a {
 }
 .footer p {
   display: inline;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
 }
 .footer i{
@@ -350,7 +350,7 @@ a {
   font-size: 20px;
 }
 
-/*GO TOP ICON*/
+/*ARROW UP*/
 .arrow-up {
   display: none; 
   position: fixed; 
@@ -488,7 +488,30 @@ a {
     bottom: 120px; 
     right: 7px;
   }
-}   
+} 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-content {
+    width: 80%;
+  }
+  .hero-text-top {
+    padding-top: 70%; 
+  } 
+  .hero h1 {
+    font-size: 34px;
+  } 
+  .container {
+    width: 90%;
+  }
+  .footer-content {
+    width: 100%; 
+  }
+  .footer-content p {
+    font-size: 12px;
+  }
+  .footer-content i {
+    font-size: 14px;
+  }
+}  
 @media (min-width: 1680px) {
   .hero h1 {
     font-size: 54px;
