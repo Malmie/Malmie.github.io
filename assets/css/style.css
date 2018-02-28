@@ -452,7 +452,8 @@ a {
   .container {
     width: 90%;
   }
-  .projects {
+  #projects {
+    margin-top: 0;
     font-size: 0.8em;
   }
   .projects-content [class*='col-'] {
@@ -500,7 +501,22 @@ a {
     font-size: 34px;
   } 
   .container {
-    width: 90%;
+    width: 85%;
+  }
+  .projects-content [class*='col-'] {
+    opacity: 1;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+  .col-left {
+    height: 220px;
+  } 
+  .layer-big {
+    height: 220px;
+  }
+  .layer-big i {
+    margin-top: 25px;
   }
   .footer-content {
     width: 100%; 
