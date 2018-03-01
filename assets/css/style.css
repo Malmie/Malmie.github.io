@@ -37,41 +37,33 @@ a {
 @-webkit-keyframes fade-in-hero {
   0% {
     opacity: 0;
-    -webkit-transform: scale(1);
   }
   100% {
     opacity: 1;
-    -webkit-transform: none;
   }
 }
 @-moz-keyframes fade-in-hero {
   0% {
     opacity: 0;
-    -moz-transform: scale(1);
   }
   100% {
     opacity: 1;
-    -moz-transform: none;
   }
 }
 @-o-keyframes fade-in-hero {
   0% {
     opacity: 0;
-    -o-transform: scale(1);
   }
   100% {
     opacity: 1;
-    -o-transform: none;
   }
 }
 @keyframes fade-in-hero {
   0% {
     opacity: 0;
-    transform: scale(1);
   }
   100% {
     opacity: 1;
-    transform: none;
   }
 }
 .hero-content {
@@ -148,7 +140,7 @@ a {
   bottom: 80px;
   left: 0;
   right: 0;
-  margin: auto;
+/*  margin: auto;*/
 }
 .arrow-down {
   position: absolute;
