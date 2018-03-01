@@ -140,7 +140,6 @@ a {
   bottom: 80px;
   left: 0;
   right: 0;
-/*  margin: auto;*/
 }
 .arrow-down {
   position: absolute;
@@ -244,6 +243,9 @@ a {
 .projects-content [class*='col-'] {
   float: left;
   background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   opacity: 0.8;  
 }
