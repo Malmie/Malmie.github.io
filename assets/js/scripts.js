@@ -1,9 +1,9 @@
-$(document).ready(function(){
+$(document).ready(function() {
   //hero text animation
-  function changeText(cont1,cont2,speed,delay){
+  function changeText(cont1,cont2,speed,delay) {
     delay = delay / 100;
     var appendTextForDelay = "";
-    while (delay>0) {
+    while (delay > 0) {
       appendTextForDelay += " ";
       delay--;
     }
@@ -12,15 +12,15 @@ $(document).ready(function(){
 
     var Ocontent = Otext.split("");
     var i = 0;
-    function show(){
-      if (i < Ocontent.length) {  
+    function show() {
+      if(i < Ocontent.length) {  
         cont2.append(Ocontent[i]);
         i = i + 1;
       };
     };
     var Otimer = setInterval(show,speed);
   };
-  changeText($(".hero h2"),$(".text-animation"),100, 2000);   
+  changeText($(".hero h2"),$(".text-animation"),100,2000);   
 
   //smooth scrolling
 	$("a").on('click', function(event) {
@@ -29,7 +29,7 @@ $(document).ready(function(){
   		var hash = this.hash;
   		$('html, body').animate({
     	scrollTop: $(hash).offset().top
-  		}, 800, function(){
+  		},800,function() {
     	window.location.hash = hash;
   		});
   	};
