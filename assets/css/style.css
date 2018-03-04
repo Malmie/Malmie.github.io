@@ -121,9 +121,9 @@ a {
 }
 .hero-img {
   position: absolute;
-  top: -10%;
-  right: -15%;
-  max-width: 836px;
+  top: 0;
+  right: 0;
+  max-width: 600px;
   height: auto;
 }
 .hero h1, h3 {
@@ -504,18 +504,18 @@ a {
 } 
 @media (min-width: 768px) and (max-width: 991px) {
   .hero-content {
-    width: 80%;
+    width: 100%;
   }
   .hero-text-top {
-    padding-top: 70%; 
+    bottom: 30%; 
   } 
   .hero h1 {
     font-size: 34px;
   } 
-  .hero-img {
+/*  .hero-img {
     top: 0;
-    right: -55%;
-  }
+    right: 0;
+  }*/
   .container {
     width: 85%;
   }
