@@ -49,7 +49,7 @@ $(document).ready(function() {
     // footer
     function footer() {
       var scroll = $(window).scrollTop(); 
-      if(scroll > 50) { 
+      if(scroll > 400) { 
         $(".footer").fadeIn("slow").addClass("show");
       } else {
         $(".footer").fadeOut("slow").removeClass("show");
