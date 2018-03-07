@@ -56,7 +56,19 @@ $(document).ready(function() {
       }; 
     };
     footer();
-  });
-});
+
+    var $window = $(window);
+    $window.on('scroll', function () {
+      el = $('.parallax');
+      el.each(function () {
+        var parallax = scroll * $(this).data('speed');
+        $(this).css({
+            'bottom': parallax
+        });
+      });
+    });
+  });  
+}); 
+
   
 

@@ -221,9 +221,12 @@ a {
 .container {
   width: 80%;
   height: auto;
-  margin: 50px auto;
+  margin: 0 auto 50px auto;
   padding: 20px;
   text-align: center;
+}
+.projects-h1 {
+  margin-top: 0!important;
 }
 
 /*PROJECTS*/
@@ -499,7 +502,7 @@ a {
   }
   .arrow-up {
     bottom: 120px; 
-    right: 7px;
+    right: 65px;
   }
 } 
 @media (min-width: 768px) and (max-width: 991px) {
