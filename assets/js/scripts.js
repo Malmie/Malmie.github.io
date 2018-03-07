@@ -36,9 +36,10 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function(event) {
+    var scroll = $(window).scrollTop(); 
     //arrow-up
    	function goTop() {
-    	if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+    	if (scroll > 400) {
         $(".arrow-up").fadeIn("slow").addClass("show");
       } else {
         $(".arrow-up").fadeOut("slow").removeClass("show");
@@ -48,8 +49,7 @@ $(document).ready(function() {
 
     // footer
     function footer() {
-      var scroll = $(window).scrollTop(); 
-      if(scroll > 400) { 
+      if (scroll > 400) { 
         $(".footer").fadeIn("slow").addClass("show");
       } else {
         $(".footer").fadeOut("slow").removeClass("show");
