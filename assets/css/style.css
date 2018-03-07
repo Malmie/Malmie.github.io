@@ -274,12 +274,12 @@ a {
   border-bottom: 5px solid #fff;
   border-top: 5px solid #fff;
 }
-.img-psd {background-image: url("../img/psd.jpg");}
+.img-psd {background-image: url("../img/psd-new.jpg");}
 .img-bts {background-image: url("../img/bootstrap.png");}
 .img-rwd {background-image: url("../img/simple-website.jpg");}
 .img-game {background-image: url("../img/game.png");}
 .img-kanban {background-image: url("../img/kanban-board.png");}
-.img-country {background-image: url("../img/country.jpg"); background-position: left top!important;}
+.img-country {background-image: url("../img/country-search.jpg"); background-position: left top!important;}
 .img-email {background-image: url("../img/email-small.jpg");}
 
 .projects h3 {
