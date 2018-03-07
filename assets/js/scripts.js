@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
   //hero text animation
   function changeText(cont1,cont2,speed,delay) {
     delay = delay / 100;
@@ -23,7 +23,7 @@ $(document).ready(function() {
   changeText($(".hero h2"),$(".text-animation"),100,2000);   
 
   //smooth scrolling
-	$("a").on('click', function(event) {
+	$("a").on('click', function(event){
     if (this.hash !== "") {
   		event.preventDefault();
   		var hash = this.hash;
@@ -35,7 +35,7 @@ $(document).ready(function() {
   	};
   });
 
-  $(window).scroll(function(event) {
+  $(window).scroll(function(event){
     var scroll = $(window).scrollTop(); 
     //arrow-up
    	function goTop() {
@@ -58,9 +58,9 @@ $(document).ready(function() {
     footer();
 
     var $window = $(window);
-    $window.on('scroll', function () {
+    $window.on('scroll', function(){
       el = $('.parallax');
-      el.each(function () {
+      el.each(function(){
         var parallax = scroll * $(this).data('speed');
         $(this).css({
             'bottom': parallax
