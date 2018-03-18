@@ -122,7 +122,7 @@ a {
 .hero-img {
   position: absolute;
   top: 0;
-  right: -10%;
+  right: 0;
   max-width: 700px;
   height: auto;
 }
@@ -440,7 +440,7 @@ a {
   .hero-img {
     width: 360px;
     top: 0;
-    right: -15%;
+    right: 0;
   }
   .hero-content {
     width: 90%;
@@ -502,7 +502,7 @@ a {
   }
   .arrow-up {
     bottom: 120px; 
-    right: 65px;
+    right: 13px;
   }
 } 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -515,10 +515,6 @@ a {
   .hero h1 {
     font-size: 34px;
   } 
-/*  .hero-img {
-    top: 0;
-    right: 0;
-  }*/
   .container {
     width: 85%;
   }
