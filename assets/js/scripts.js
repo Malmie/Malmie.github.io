@@ -16,10 +16,10 @@ $(document).ready(function(){
       if(i < Ocontent.length) {  
         cont2.append(Ocontent[i]);
         i = i + 1;
-      };
-    };
+      }
+    }
     var Otimer = setInterval(show,speed);
-  };
+  }
   changeText($(".hero h2"),$(".text-animation"),100,2000);   
 
   //smooth scrolling
@@ -32,7 +32,7 @@ $(document).ready(function(){
   		},800,function() {
     	window.location.hash = hash;
   		});
-  	};
+  	}
   });
 
   $(window).scroll(function(event){
@@ -43,8 +43,8 @@ $(document).ready(function(){
         $(".arrow-up").fadeIn("slow").addClass("show");
       } else {
         $(".arrow-up").fadeOut("slow").removeClass("show");
-      }; 
-  	};
+      }
+  	}
     goTop();
 
     // footer
@@ -53,8 +53,8 @@ $(document).ready(function(){
         $(".footer").fadeIn("slow").addClass("show");
       } else {
         $(".footer").fadeOut("slow").removeClass("show");
-      }; 
-    };
+      }
+    }
     footer();
 
     var $window = $(window);
