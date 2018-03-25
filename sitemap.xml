@@ -4,47 +4,46 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://malmie.github.io/</loc>
-  <lastmod>2018-03-07T09:56:54+00:00</lastmod>
+  <lastmod>2018-03-24T09:06:59+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://malmie.github.io/PSD-to-WEB-with-Sass/</loc>
+  <lastmod>2018-03-22T07:02:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://malmie.github.io/PSD-to-WEB/</loc>
-  <lastmod>2018-03-01T09:45:38+00:00</lastmod>
+  <lastmod>2018-03-22T07:13:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://malmie.github.io/Bootstrap-page/</loc>
-  <lastmod>2018-02-19T17:43:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://malmie.github.io/responsive-website/</loc>
-  <lastmod>2018-02-03T08:56:07+00:00</lastmod>
+  <lastmod>2018-03-20T15:15:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://malmie.github.io/Dreamweaver-email-example/</loc>
-  <lastmod>2018-02-26T07:26:29+00:00</lastmod>
+  <lastmod>2018-03-22T13:19:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://malmie.github.io/game-of-rock-paper-scissors/</loc>
-  <lastmod>2018-02-03T09:00:12+00:00</lastmod>
+  <lastmod>2018-03-21T10:38:31+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://malmie.github.io/kanban-board/</loc>
-  <lastmod>2018-02-19T17:44:37+00:00</lastmod>
+  <lastmod>2018-03-22T06:42:37+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://malmie.github.io/country-search/</loc>
-  <lastmod>2018-02-19T17:44:03+00:00</lastmod>
+  <lastmod>2018-03-21T10:47:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
